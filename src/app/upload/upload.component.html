@@ -1,0 +1,12 @@
+<div class="container">
+
+  <h2>UPLOAD A CSV FILE </h2>
+
+  <label class="label"> Enter a file
+  <input type="file" class="uploadfile" id="csvFileInput" (change)="handleFiles($event)" accept=".csv" #fileInput>
+  </label> {{filename || ''}}
+  <div *ngIf="graphPath!== ''">
+    <p>Click Here to view graph:</p>
+    <a (click)="LoadGraph()" class="texttag"> {{graphPath || ''}} </a>
+  </div>
+</div>

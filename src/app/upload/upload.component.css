@@ -1,0 +1,25 @@
+.container {
+  text-align: center;
+}
+
+.texttag {
+  cursor: pointer;
+  text-decoration: underline;
+  color: #241673;
+  font-family: monospace;
+}
+
+label {
+  padding: 10px;
+  background: #008aff;
+  display: inline-block;
+  color: #ffffff;
+  border-radius: 6px;
+  width: 150px;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+input[type="file"] {
+  display: none;
+}
